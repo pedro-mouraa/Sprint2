@@ -1,0 +1,164 @@
+:root{
+    --color1:#fff;
+    --color2:#333;
+    --bgColor1:#f0faff;
+    --bgColor2:#000;
+    --fontFamily:"Cascadian Code", sans-serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:var(--bgColor1);
+    font-family:var(--fontFamily);
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    width:100%;
+    height:100%;
+
+    overflow:hidden;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:20;
+    background-color:var(--bgColor2);
+    padding:2rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header img{
+    width:30px;
+}
+
+main{
+    position:fixed;
+    inset:0;
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    background:var(--color2);
+}
+
+#video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+#canvas{
+    display:none;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    padding:2rem;
+    z-index:20;
+    background-color:var(--bgColor2);
+}
+
+footer .funcionalidades{
+    color:var(--color1);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:50px;
+    font-weight:700;
+}
+
+span{
+    color:yellow;
+}
+
+footer .btns{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+footer .btns .btnFotos{
+    background-color:var(--color1);
+    width:50px;
+    height:50px;
+    border-radius:10px;
+}
+
+footer .btns .btnTirarFoto{
+    background-color:var(--color1);
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    border:none;
+    cursor:pointer;
+    transition:
+        transform 0.15s ease,
+        background-color 0.15s ease;
+}
+
+footer .btns .btnTirarFoto:active{
+    background-color:var(--color2);
+    transform:scale(0.88);
+}
+
+footer .btns img{
+    width:50px;
+    height:50px;
+}
+
+@media (max-width:768px){
+
+    header{
+        padding:1.5rem;
+    }
+
+    footer{
+        padding:1.2rem;
+    }
+
+    footer .funcionalidades{
+        gap:15px;
+
+        font-size:0.85rem;
+
+        justify-content:space-evenly;
+
+        flex-wrap:nowrap;
+    }
+
+    footer .funcionalidades p{
+        flex:1;
+        text-align:center;
+    }
+
+    footer .btns .btnFotos{
+        width:45px;
+        height:45px;
+    }
+
+    footer .btns .btnTirarFoto{
+        width:65px;
+        height:65px;
+    }
+
+    footer .btns img{
+        width:45px;
+        height:45px;
+    }
+}

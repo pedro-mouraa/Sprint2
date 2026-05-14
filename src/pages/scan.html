@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/scan.css">
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.0.2/dist/tesseract.min.js"></script>
+    <title>Scan</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="../assets/flash.png" alt="flash">
+        <img src="../assets/setting.png" alt="settings">
+    </header>
+
+    <main>
+        <video id="video" autoplay playsinline></video>
+        <canvas id="canvas"></canvas>
+    </main>
+
+    <footer>
+        <div class="funcionalidades">
+            <p>Foto</p>
+            <p>Vídeo</p>
+            <p><span>Modo Estudo</span></p>
+            <p>Microfilme</p>
+            <p>Mais</p>
+        </div>
+
+        <div class="btns">
+            <div class="btnFotos"></div>
+            <button class="btnTirarFoto"></button>
+            <img src="../assets/rotate.png" alt="rotate">
+        </div>
+    </footer>
+
+    <script src="../js/scan.js"></script>
+</body>
+</html>
