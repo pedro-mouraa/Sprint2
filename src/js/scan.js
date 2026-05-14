@@ -14,7 +14,6 @@ async function configurarCamera(){
         await videoElemento.play();
     }catch(erro){
         console.error("Erro ao acessar câmera:",erro);
-        alert("Não foi possível acessar a câmera.");
     }
 }
 
