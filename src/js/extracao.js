@@ -13,9 +13,8 @@ btnCopiar.addEventListener("click", () => {
 // BOTÃO SALVAR COMO
 btnSalvar.addEventListener("click", () => {
 
-    // futura tela
-    // window.location.href = "salvar.html";
+    
+    window.location.href = "salva.html";
 
-    alert("Tela de salvar em desenvolvimento");
 
 });

@@ -1,0 +1,65 @@
+[33mcommit 41f4d602de0a93dd5540415e1b8126344a2b3b6e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m, [m[1;32mmain[m[33m)[m
+Author: Enzo <enzogabrielp86@gmail.com>
+Date:   Fri May 15 18:03:39 2026 -0300
+
+    feat: adiciona tela de extração com funcionalidades dos botões
+
+[33mcommit 1b71e0edc1a564c41b31c557ca859c944aafd39c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Pedro Moura <pedro030707@gmail.com>
+Date:   Thu May 14 11:15:40 2026 -0300
+
+    chore: criando tela mostrandoo 'Texto Digitado'
+
+[33mcommit b214dac56d6b42e63923c8a1b12f73e7296dbbd0[m
+Author: Pedro Moura <pedro030707@gmail.com>
+Date:   Thu May 14 09:06:04 2026 -0300
+
+    fix: corrigindo local da lupa na tela
+
+[33mcommit e970dfacb305bae5d84b60ebd9c6f5b50826e6c7[m
+Author: Pedro Moura <pedro030707@gmail.com>
+Date:   Thu May 14 08:55:37 2026 -0300
+
+    fix: corrigindo local da lupa na tela
+
+[33mcommit e992d28a59945252cb059c950b22e8d5779bb576[m
+Author: Pedro Moura <pedro030707@gmail.com>
+Date:   Thu May 14 08:49:03 2026 -0300
+
+    fix: corrigindo lupa na tela
+
+[33mcommit 5b28656c82f2bd0848c3f74f9164a1aae739b794[m
+Author: Pedro Moura <pedro030707@gmail.com>
+Date:   Thu May 14 08:41:36 2026 -0300
+
+    feat: adicionando lupa para pesquisa
+
+[33mcommit 964e150561ada858f201a98b273ca3da0234042d[m
+Author: Pedro Moura <pedro030707@gmail.com>
+Date:   Wed May 13 22:02:32 2026 -0300
+
+    chore: Criando página para escanear o texto
+
+[33mcommit da2421ddd3d30ddcf8e1a4ff124f0de965fda259[m
+Author: Pedro Moura <pedro030707@gmail.com>
+Date:   Wed May 13 20:23:02 2026 -0300
+
+    fix: corrigindo câmera invetida
+
+[33mcommit b01a279320b5502058c6d2973be64027b1fd8e72[m
+Author: Pedro Moura <pedro030707@gmail.com>
+Date:   Wed May 13 20:14:28 2026 -0300
+
+    fix: corrigindo tela para o celular
+
+[33mcommit 436d76e236201eba48cdefaf2b723a5427fbde8b[m
+Author: Pedro Moura <pedro030707@gmail.com>
+Date:   Wed May 13 19:58:29 2026 -0300
+
+    feat: criando html, css e js da primeira página
+
+[33mcommit 625e2edd2e62ef016448b854db70301f0113f8c7[m
+Author: Pedro Moura <pedro030707@gmail.com>
+Date:   Wed May 13 10:31:49 2026 -0300
+
+    chore: Criando estrutura do projeto

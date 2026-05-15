@@ -1,0 +1,170 @@
+:root{
+    --preto:#000;
+    --branco:#fff;
+    --cinza:#d9d9d9;
+    --cinzaLinha:#9c9c9c;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    width:100%;
+    min-height:100vh;
+    background:var(--preto);
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-direction:column;
+}
+
+header{
+    width:100%;
+    height:80px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    padding:0 25px;
+    background:var(--preto);
+}
+
+header img{
+    width:28px;
+    height:28px;
+}
+
+main{
+    flex:1;
+    background:#ededed;
+    padding:25px 15px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+
+
+.titulo{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.titulo h1{
+    font-size:2.7rem;
+    font-weight:900;
+    color:#000;
+}
+
+
+.containerOpcoes{
+    width:100%;
+    max-width:540px;
+    margin:auto;
+    background:var(--cinza);
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.opcao{
+    width:100%;
+    height:180px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 20px;
+    border-bottom:1px solid var(--cinzaLinha);
+    cursor:pointer;
+    transition:0.2s ease;
+}
+
+.opcao:last-child{
+    border-bottom:none;
+}
+
+.opcao h2{
+    font-size:4rem;
+    font-weight:900;
+    color:#000;
+}
+
+.opcao img{
+    width:45px;
+    height:45px;
+    object-fit:contain;
+}
+
+/* efeito apagado */
+.opcao:hover{
+    opacity:0.6;
+    background:#444444;
+}
+
+/* clique */
+.opcao:active{
+    transform:scale(0.98);
+}
+
+
+footer{
+    width:100%;
+    background:var(--preto);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:25px 0;
+}
+
+footer .btnConfirmar{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    border:2px solid #666;
+    background:transparent;
+    cursor:pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:transform 0.15s ease, background-color 0.15s ease;
+}
+
+footer .btnConfirmar img{
+    width:50px;
+    height:50px;
+    object-fit:contain;
+}
+
+footer .btnConfirmar:active{
+    transform:scale(0.88);
+    background-color:rgba(255,255,255,0.08);
+}
+
+@media (max-width:768px){
+
+    .titulo h1{
+        font-size:2.7rem;
+        margin-top: 40px;
+    }
+
+    .opcao{
+        height:150px;
+        max-width: 600px;
+    }
+
+    .opcao h2{
+        font-size:1.7rem;
+        margin-left: 70px;
+    }
+
+    .opcao img{
+        width:38px;
+        margin-right: 50px;
+        height:38px;
+    }
+
+    .btnConfirmar{
+        width:60px;
+        height:60px;
+    }
+}
+
