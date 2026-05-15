@@ -1,0 +1,123 @@
+:root{
+    --color1:#fff;
+    --color2:#333;
+    --bgColor1:#f0faff;
+    --bgColor2:#000;
+    --fontFamily:"Cascadian Code", sans-serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:20;
+    background-color:var(--bgColor2);
+    padding:1.5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: var(--color1);
+}
+
+header h1 a{
+    color: greenyellow
+}
+
+body{
+    background:var(--bgColor1);
+    font-family:var(--fontFamily);
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-top:86px;
+}
+
+main{
+    flex: 1;
+    margin: 16px;
+    padding: 16px;
+    border: 4px solid #f0e24b;
+    border-radius: 20px;
+    background: #f3f3f3;
+    overflow-y: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.card {
+    margin-bottom: 16px;
+}
+
+.card h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.bloco {
+    height: 70px;
+    background: #d9d9d9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    font-weight: bold;
+    overflow-y: auto;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    padding:2rem;
+    z-index:20;
+    background-color:var(--bgColor2);
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+    align-content: center;
+    align-items: center;
+    color: var(--bgColor2)
+}
+
+footer button img{
+    width: 60px;
+    height: 60px;
+}
+footer h1{
+    font-size: 25px;
+    background-color: var(--color1);
+    border: 2px solid yellow;
+    width: 80px;
+    height: 80px;
+    border-radius: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+footer button{
+    padding: 0px;
+    background-color: transparent;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+}
+footer button:hover{
+    padding: 8px;
+    background-color: var(--color2);
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+}
