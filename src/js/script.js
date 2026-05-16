@@ -1,5 +1,5 @@
-const usuario = prompt("Digite seu usuário:");
-const senha = prompt("Digite sua senha:");
+const usuario = prompt("Digite seu usuário: (qualquer nome)");
+const senha = prompt("Digite sua senha: (qualquer senha)");
  
 if (!usuario || !senha) {
     alert("Acesso negado! Usuário e senha são obrigatórios.");
